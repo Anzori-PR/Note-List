@@ -1,53 +1,74 @@
 {
-    "Notes": [
-      {
-        "id": "0",
-        "title": "Anzori is good boy",
-        "content": "Karoche esea raaa magar saits vqmni da ravici racumfro kais gavakeTebt mituketesi s=mosawoni unda vaketot yveklam yvelaferi tuara  argamoswordeba es qveyana hah Shvrdndztynddstrkn",
-        "isImportant": true,
-        "create_date": "2024-01-23T15:59:55.994Z"
-      },
-      {
-        "id": "1",
-        "title": "HI",
-        "content": "dsnjfknskdfjns anjknds",
-        "isImportant": false,
-        "create_date": "2024-01-23T16:08:06.129Z"
-      },
-      {
-        "id": "2",
-        "title": "Everything is good doot",
-        "content": "HAhhhhha asd",
-        "isImportant": false,
-        "create_date": "2024-01-23T16:08:20.019Z"
-      },
-      {
-        "id": "3",
-        "title": "dsfsfs",
-        "content": "sdf",
-        "isImportant": false,
-        "create_date": "2024-01-24T17:38:45.124Z"
-      },
-      {
-        "id": "4",
-        "title": "sdfssdfs",
-        "content": "sdfsdf",
-        "isImportant": false,
-        "create_date": "2024-01-24T17:38:51.258Z"
-      },
-      {
-        "id": "5",
-        "title": "DUDUDU",
-        "content": "ABA CHQARA",
-        "isImportant": false,
-        "create_date": "2024-01-26T18:14:58.196Z"
-      },
-      {
-        "id": "6",
-        "title": "nskl;nsdfn",
-        "content": "asdf",
-        "isImportant": false,
-        "create_date": "2024-01-27T14:04:13.361Z"
-      }
-    ]
-  }
+  "Notes": [
+    {
+      "id": "0",
+      "title": "Introduction",
+      "content": "Welcome to the application! This is an introductory note.",
+      "isImportant": false,
+      "create_date": "2024-01-28T15:12:35.270Z"
+    },
+    {
+      "id": "1",
+      "title": "Important Reminder",
+      "content": "Don't forget to complete the tasks by the end of the day.",
+      "isImportant": false,
+      "create_date": "2024-01-28T15:15:24.301Z"
+    },
+    {
+      "id": "2",
+      "title": "Inspirational Quote",
+      "content": "\"Believe you can and you're halfway there.\" - Theodore Roosevelt",
+      "isImportant": false,
+      "create_date": "2024-01-28T15:15:48.375Z"
+    },
+    {
+      "id": "3",
+      "title": "Shopping List",
+      "content": "Milk, Eggs, Bread, and Coffee",
+      "isImportant": true,
+      "create_date": "2024-01-28T15:16:03.517Z"
+    },
+    {
+      "id": "4",
+      "title": "Meeting Notes",
+      "content": "Discuss project updates and assign tasks for the next sprint.",
+      "isImportant": false,
+      "create_date": "2024-01-28T15:16:23.026Z"
+    },
+    {
+      "id": "5",
+      "title": "Book Recommendation",
+      "content": "Check out \"The Alchemist\" by Paulo Coelho. It's a must-read!",
+      "isImportant": true,
+      "create_date": "2024-01-28T15:16:39.723Z"
+    },
+    {
+      "id": "6",
+      "title": "Fitness Goals",
+      "content": "Plan for a 30-minute workout routine every morning.",
+      "isImportant": false,
+      "create_date": "2024-01-28T15:16:55.577Z"
+    },
+    {
+      "id": "7",
+      "title": "Recipe",
+      "content": "Try making homemade pizza: dough, tomato sauce, cheese, and your favorite toppings.",
+      "isImportant": false,
+      "create_date": "2024-01-28T15:17:08.346Z"
+    },
+    {
+      "id": "8",
+      "title": "Travel Plans",
+      "content": "Research and plan a vacation to your dream destination.",
+      "isImportant": false,
+      "create_date": "2024-01-28T15:17:23.123Z"
+    },
+    {
+      "id": "9",
+      "title": "Coding Challenge Ideas",
+      "content": "Brainstorm ideas for the next coding challenge or project.",
+      "isImportant": false,
+      "create_date": "2024-01-28T15:17:38.646Z"
+    }
+  ]
+}

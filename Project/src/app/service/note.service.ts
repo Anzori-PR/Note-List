@@ -9,6 +9,7 @@ import { Observable } from 'rxjs';
 export class NoteService {
 
   JsonUrl: string;
+  destination!: string;
 
   constructor(private http: HttpClient) { 
     this.JsonUrl = "http://localhost:3000/Notes"

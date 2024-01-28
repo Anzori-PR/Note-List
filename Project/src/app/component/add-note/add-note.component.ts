@@ -27,7 +27,6 @@ export class AddNoteComponent implements OnInit{
 
       this.note.id = (this.Notes.length).toString();
     })
-    
   }
 
   saveChanges() {
