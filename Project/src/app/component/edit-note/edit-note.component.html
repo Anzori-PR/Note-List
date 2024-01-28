@@ -1,0 +1,25 @@
+<div class="body">
+    <main>
+        <div class="container">
+
+            <div *ngFor="let note of Note">
+
+                <label for="title">{{'Title' | translate}}: </label>
+                <input type="text" id="title" [(ngModel)]="note.title" value="" />
+    
+                <label for="content">{{'Content' | translate}}: </label>
+                <textarea id="content" [(ngModel)]="note.content"></textarea>
+    
+                <span class="checkbox-container">
+                    <label for="important">{{'Important' | translate}}: </label>
+                    <input type="checkbox" id="important" [(ngModel)]="note.isImportant" />
+                </span>
+    
+                <button class="save" (click)="saveChanges(note)">{{'Save Changes' | translate}}</button>
+                <button class="cancel" routerLink="/my-notes">{{'Cancel' | translate}}</button>
+    
+            </div>
+
+        </div>
+    </main>
+</div>

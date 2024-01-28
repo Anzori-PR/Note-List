@@ -1,0 +1,15 @@
+<header>
+    <div class="container">
+        <h2>{{ 'Notes List' | translate }}</h2>
+
+        <div class="lang_switcher">
+          
+            <div (click)="changeLanguage()" class="toogle">
+                <span *ngIf="!languageService.switch" class="en"></span>
+                <span *ngIf="languageService.switch" class="ge"></span>
+            </div>
+          
+        </div>
+          
+    </div>
+</header>

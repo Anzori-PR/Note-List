@@ -1,0 +1,147 @@
+.body {
+    background-color: #1f203e;
+    width: 100%;
+    height: 100dvh;
+  }
+  
+  
+  
+  main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .container {
+      background-color: #222544;
+      width: 450px;
+      padding: 40px 40px;
+      border-radius: 20px;
+      box-shadow: rgba(0, 0, 0, 0.4) 25px 32px 30px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+      overflow: auto;
+  
+      .note-list {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+  
+        h2 {
+          text-align: center;
+        }
+      }
+  
+      .note-item-header {
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 14px;
+        font-weight: bold;
+        color: #fff;
+  
+        div {
+          width: 48%;
+        }
+      }
+  
+      .note-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        color: white;
+        border-right: none;
+        border-bottom: none;
+        border-top: none;
+        transition: 0.3s;
+      }
+  
+      .note-item:hover {
+        padding-right: 10px;
+      }
+  
+      .note-content {
+        flex: 1;
+        display: flex;
+        justify-content: inherit;
+        padding: 10px 0 10px 13px;
+        padding-right: 4rem;
+      }
+  
+      .scrollable-body {
+        max-height: 250px;
+        overflow-y: auto;
+        scrollbar-width: none;
+        scrollbar-color: transparent;
+      }
+  
+      .trash {
+        background-image: radial-gradient(circle at 100% 0%, rgba(94, 138, 243, 1) 15%, rgba(243, 61, 223, 1));
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+  
+        button {
+          background-color: transparent;
+          border: none;
+          font-size: medium;
+          cursor: pointer;
+        }
+  
+        button fa-icon {
+          color: rgb(31, 32, 62);
+        }
+      }
+  
+  
+  
+      /* Responsive design for smaller screens */
+      @media only screen and (max-width: 600px) {
+  
+        th,
+        td {
+          display: block;
+          width: 100%;
+        }
+  
+        th {
+          text-align: center;
+        }
+      }
+  
+      .add-note {
+        width: 100%;
+        margin-top: 2rem;
+  
+  
+        .original-button {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          line-height: 1;
+          text-decoration: none;
+          color: #ffffff;
+          font-size: 18px;
+          border-radius: 5px;
+          gap: 0.5rem;
+          height: 40px;
+          font-weight: bold;
+          transition: 0.3s;
+          background-image: radial-gradient(circle at 100% 0%, rgba(94, 138, 243, 1) 15%, rgba(243, 61, 223, 1));
+          border: none;
+          cursor: pointer;
+        }
+  
+        .original-button:hover {
+          opacity: .5;
+        }
+      }
+  
+  
+    }
+  }
